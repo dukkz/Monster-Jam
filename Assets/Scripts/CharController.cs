@@ -37,6 +37,10 @@ public class CharController : MonoBehaviour {
 	}
 
 	void Update(){
+		Debug.DrawRay (transform.GetChild (0).transform.position, Vector3.down, Color.red);
+		Debug.DrawRay (transform.GetChild (1).transform.position, Vector3.down, Color.red);
+		Debug.DrawRay (transform.GetChild (2).transform.position, Vector3.down, Color.red);
+		Debug.DrawRay (transform.GetChild (3).transform.position, Vector3.down, Color.red);
 		GetInput ();
 		Turn ();
 
@@ -47,7 +51,7 @@ public class CharController : MonoBehaviour {
 		//if (Mathf.Abs (rb.velocity.magnitude) == 0) {
 		//	running = false;
 		//}
-		if(Input.GetAxisRaw("Horizontal") + Input.GetAxisRaw("Vertical") == 0){
+		if(Input.GetAxisRaw("Horizontal") == 0 && Input.GetAxisRaw("Vertical") == 0){
 			running = false;
 		}
 	}
@@ -61,7 +65,7 @@ public class CharController : MonoBehaviour {
 		if (rb.velocity.y < 0) {
 			velocity.y += Physics.gravity.y * fallMultiplier * Time.deltaTime;
 		} else if (rb.velocity.y > 0 && Input.GetAxisRaw ("Jump") == 0) {
-			velocity.y += Physics.gravity.y * fallMultiplier * Time.deltaTime;
+			velocity.y += Physics.gravity.y * (fallMultiplier * 3) * Time.deltaTime;
 		}
 	}
 
@@ -91,7 +95,7 @@ public class CharController : MonoBehaviour {
 	}
 
 	bool Grounded(){
-		if (Physics.Raycast (transform.position, Vector3.down, distToGround, groundMask)) {
+		if (Physics.Raycast (transform.position, Vector3.down, distToGround + (distToGround * .1f), groundMask) || Physics.Raycast (transform.GetChild(0).transform.position, Vector3.down, distToGround, groundMask) || Physics.Raycast (transform.GetChild(1).transform.position, Vector3.down, distToGround, groundMask) || Physics.Raycast (transform.GetChild(2).transform.position, Vector3.down, distToGround, groundMask) || Physics.Raycast (transform.GetChild(3).transform.position, Vector3.down, distToGround, groundMask)) {
 			return true;
 		} else {
 			return false;

@@ -12,13 +12,23 @@ public class Follow : MonoBehaviour {
 	Vector3 destination = Vector3.zero;
 	CharController controller;
 	float rotateVelocity = 0;
+	bool menuOn;
 
 	void Start(){
 		SetCameraTarget (followObject);
+		menuOn = false;
 		Cursor.lockState = CursorLockMode.Locked;
 	}
 
 	void Update(){
+		if (menuOn == false) {
+			Cursor.lockState = CursorLockMode.Locked;
+		}
+		if (Input.GetKeyDown (KeyCode.Escape) && menuOn == false) {
+			menuOn = true;
+		} else if (Input.GetKeyDown (KeyCode.Escape) && menuOn == true) {
+			menuOn = false;
+		}
 	}
 
 	void SetCameraTarget(Transform t){
