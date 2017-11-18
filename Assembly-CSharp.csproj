@@ -52,9 +52,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CharController.cs" />
+     <Compile Include="Assets\Scripts\DrawSphere.cs" />
      <Compile Include="Assets\Scripts\Eatable.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
      <Compile Include="Assets\Scripts\Opaque.cs" />
+     <Compile Include="Assets\Scripts\Rat.cs" />
+     <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\Scale.cs" />
      <Compile Include="Assets\Scripts\TileSetter.cs" />
  <Reference Include="UnityEngine.UI">
