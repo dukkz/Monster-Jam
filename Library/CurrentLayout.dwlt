@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 78
+  controlID: 124
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 79
+  controlID: 58
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 50
+  controlID: 59
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 592
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 1307
     height: 592
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -256,8 +256,8 @@ MonoBehaviour:
     y: 0
     width: 411
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -369,9 +369,9 @@ MonoBehaviour:
     height: 571
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: b0f1ffff74f2ffff80f3ffff1afcffff00000000
+    m_SelectedIDs: 1e2f0000
+    m_LastClickedID: 12062
+    m_ExpandedIDs: 08ddffff64dfffff7ae0ffff8cebffff90eeffffc0efffff98f5ffff000000004a2e0000743000008a300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -426,9 +426,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 498.0237, y: 6.026871, z: -22.36084}
+    m_Target: {x: -98.52916, y: 319.24557, z: -610.9434}
     speed: 2
-    m_Value: {x: 498.0237, y: 6.026871, z: -22.36084}
+    m_Value: {x: -98.52916, y: 319.24557, z: -610.9434}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -451,17 +451,18 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.029163022, y: -0.6379418, z: 0.024186682, w: -0.769152}
+    m_Target: {x: 0.013952521, y: 0.56408376, z: -0.009532311, w: 0.8255447}
     speed: 2
-    m_Value: {x: 0.029163023, y: 0.6379418, z: -0.024186684, w: 0.76915205}
+    m_Value: {x: 0.013952521, y: 0.56408376, z: -0.009532311, w: 0.8255447}
   m_Size:
-    m_Target: 56.654182
+    m_Target: 152.98724
     speed: 2
-    m_Value: 56.654182
+    m_Value: 152.98724
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
+  m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: 0.20725651, y: 0.019071113, z: -0.0040409886, w: 0.9780924}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
@@ -532,19 +533,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/_Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/_Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Me\Documents\Unity Projects\Monster Jam
+  m_LastProjectPath: C:\Users\PUGBox\Documents\Unity Projects\Monster-Jam
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 48260000
-    m_LastClickedID: 9800
-    m_ExpandedIDs: 0000000034260000482600007626000000ca9a3bffffff7f
+    m_SelectedIDs: e2290000
+    m_LastClickedID: 10722
+    m_ExpandedIDs: 00000000b6290000ce290000e2290000062a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -572,7 +573,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000342600004826000076260000
+    m_ExpandedIDs: 00000000b6290000ce290000062a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -599,7 +600,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000102b0000102c0000ac2700008c270000e02a0000842600002828000072260000462600004a26000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -781,7 +782,6 @@ MonoBehaviour:
     y: 92
     width: 409
     height: 926
-  m_IsSceneBased: 0
   m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
     m_Window: {fileID: 21}
@@ -797,6 +797,7 @@ MonoBehaviour:
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
+      isSuite: 0
     - id: '[C:/Users/Me/Documents/Unity Projects/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
       name: Assembly-CSharp.dll
       fullName: C:/Users/Me/Documents/Unity Projects/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp.dll
@@ -808,6 +809,7 @@ MonoBehaviour:
       notRunnable: 1
       ignoredOrSkipped: 0
       description: 
+      isSuite: 0
     m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
@@ -832,6 +834,13 @@ MonoBehaviour:
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 0}
       m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories: []
   m_EditModeTestListGUI:
     m_Window: {fileID: 21}
     newResultList:
@@ -846,12 +855,13 @@ MonoBehaviour:
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: ScoreDisplayTest (0.150s)
+      isSuite: 0
+    m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4003851d
-      m_LastClickedID: 495256384
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: b255bfcb0fdb84ef4003851da79cb8384b250a632621517ad8a99c7c229ef37effffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -870,6 +880,13 @@ MonoBehaviour:
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 0}
       m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories: []
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
