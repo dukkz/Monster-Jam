@@ -6,6 +6,6 @@ public class DrawSphere : MonoBehaviour {
 
 	void OnDrawGizmos(){
 		Gizmos.color = Color.red;
-		Gizmos.DrawSphere (transform.position, 1f);
+		Gizmos.DrawSphere (transform.position, .25f);
 	}
 }

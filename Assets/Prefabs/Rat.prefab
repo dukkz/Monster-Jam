@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 33450855586138900}
   - component: {fileID: 65837392865852112}
   - component: {fileID: 23212349820680338}
-  - component: {fileID: 195486483786975230}
+  - component: {fileID: 195170769395779842}
   - component: {fileID: 114660372216040046}
-  - component: {fileID: 114006198162586264}
+  - component: {fileID: 114736701394902352}
   m_Layer: 9
   m_Name: Rat
   m_TagString: Untagged
@@ -39,8 +39,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1320320658586606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25, y: 6, z: -28.56}
-  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.13, y: 0.15, z: 0.45}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -54,6 +54,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -69,6 +70,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -96,22 +98,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114006198162586264
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1320320658586606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e78defe6a37e4ac4596d9840082a31d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  routeVectors:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  targetRange: 32
 --- !u!114 &114660372216040046
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -123,8 +109,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd4cd6861f8b81548a70d27ca258dd94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mass: 1.9
---- !u!195 &195486483786975230
+  mass: 0.0019
+--- !u!114 &114736701394902352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1320320658586606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e78defe6a37e4ac4596d9840082a31d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  routeVectors: []
+  targetRange: 0
+--- !u!195 &195170769395779842
 NavMeshAgent:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -132,7 +131,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1320320658586606}
   m_Enabled: 1
   m_AgentTypeID: -1372625422
-  m_Radius: 0.5
+  m_Radius: 0.50000006
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50

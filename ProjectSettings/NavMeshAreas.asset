@@ -73,10 +73,10 @@ NavMeshProjectSettings:
   m_Settings:
   - serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 45.7
-    agentHeight: 182
-    agentSlope: 45
-    agentClimb: 68.25
+    agentRadius: 1
+    agentHeight: 2
+    agentSlope: 34.8
+    agentClimb: 1
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -85,12 +85,14 @@ NavMeshProjectSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    debug:
+      m_Flags: 0
   - serializedVersion: 2
     agentTypeID: -1372625422
-    agentRadius: 12
-    agentHeight: 6
-    agentSlope: 60
-    agentClimb: 6
+    agentRadius: 0.4572
+    agentHeight: 0.1524
+    agentSlope: 25
+    agentClimb: 0.09
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -99,12 +101,14 @@ NavMeshProjectSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    debug:
+      m_Flags: 0
   - serializedVersion: 2
     agentTypeID: -334000983
-    agentRadius: 45.72
-    agentHeight: 22.86
-    agentSlope: 60
-    agentClimb: 17
+    agentRadius: 0.46
+    agentHeight: 0.25
+    agentSlope: 31.7
+    agentClimb: 0.15
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -113,12 +117,14 @@ NavMeshProjectSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    debug:
+      m_Flags: 0
   - serializedVersion: 2
     agentTypeID: 1479372276
-    agentRadius: 81.28
-    agentHeight: 45.72
-    agentSlope: 60
-    agentClimb: 34.29
+    agentRadius: 0.81
+    agentHeight: 0.45
+    agentSlope: 32.1
+    agentClimb: 0.28
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -127,6 +133,8 @@ NavMeshProjectSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    debug:
+      m_Flags: 0
   m_SettingNames:
   - Humanoid
   - Rat

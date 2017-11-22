@@ -16,7 +16,6 @@ public class Scale : MonoBehaviour {
 	void Start () {
 		controller = GetComponent<CharController> ();
 		massEaten = 0f;
-		scale = 2f;
 	}
 	
 	// Update is called once per frame

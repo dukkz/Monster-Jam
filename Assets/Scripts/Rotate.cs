@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour {
 
-	public Vector3 rotation;
-
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate(rotation);
+		transform.Rotate(new Vector3(Random.Range(.01f, 1f), Random.Range(.01f, 1f), Random.Range(.01f, 1f)));
 	}
 }
